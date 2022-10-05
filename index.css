@@ -1,0 +1,117 @@
+body {
+    background-color: #131518;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 25rem; */
+}
+
+.main-container {
+    width: 20rem;
+    height: 20rem;
+    color: white;
+    /* background: radial-gradient(circle at top, #242A33, #1B212A); */
+    background: radial-gradient(circle at top, #2c323c, #14181e);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 6%;
+}
+
+.firstContainer, .secondContainer {
+    display: flex;
+    min-height: 100%;
+    flex-flow: column nowrap;
+    /* flex-flow: column nowrap; */
+    /* justify-content: center; */
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.none {
+    display: none;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 1rem;
+}
+
+.star-svg {
+    position: relative;
+    /* bottom: .075rem; */
+}
+
+.svg-star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a323b;
+    width: 2.8rem;
+    height: 2.8em;
+    border-radius: 100%;
+}
+
+.firstContainer div:nth-of-type(2) {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.firstContainer div:nth-of-type(3) {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.3rem;
+    margin-top: -8%;
+    letter-spacing: .01rem;
+}
+
+.firstContainer div:nth-of-type(4) {
+    display: flex;
+    min-width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+/* .rating-center-container {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 100%;
+    background-color: #23282d;
+} */
+
+button.submit {
+    width: 100%;
+    color: white;
+    background-color: #FC7613;
+    border: none;
+    text-transform: uppercase;
+    padding: .6rem 0%;
+    border-radius: 1rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    font-size: .7rem;
+}
+
+.nubmer {
+    position: relative;
+    top: 27%;
+    left: 42%;
+    color: hsl(217, 12%, 63%);
+    font-size: .9rem;
+}
+
+
+a.rating {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 100%;
+    background-color: #242a2f;
+    text-decoration: none;
+    color: white;
+    /* padding: 0px; */
+    /* margin: 0%; */
+}
