@@ -20,7 +20,7 @@ body {
     background: radial-gradient(circle at top, #2c323c, #14181e);
     border-radius: 20px;
     overflow: hidden;
-    padding: 6%;
+    padding: 30px; /* changing the padding from 6% to 30px solved the issue of maintaining aspect ration but can't still figure out how to grow this entire component when space is available while maintaining aspect ration of 1*1 */
 }
 
 .firstContainer {
